@@ -70,3 +70,4 @@ public class ActionCardsTest{
     fields.set(game, new Scanner(new ByteArrayInputStream(text.getBytes())));
     
   }
+}
