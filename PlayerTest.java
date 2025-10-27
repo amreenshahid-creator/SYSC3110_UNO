@@ -6,18 +6,30 @@ import org.junit.*;
 import static org.junit.Assert.*;
 import java.util.List;
 
-
+/***
+*This test class checks Player class.
+*/
 public class PlayerTest{
+
+/***
+*This test checks new player is correctly created.
+*/
   @Test
   public void testPlayerCreation(){
     Player player = new Player("Iman");
     assertEquals("Iman", player.getName());
-    assertEquals("Iman", player.toString());}   
+    assertEquals("Iman", player.toString());} 
+/***
+* This tests player deck empty
+*/
   @Test
   public void testAddCardToDeckPlayer(){
     Player player = new Player("Amreen");
     assertTrue(player.getPersonalDeck().isEmpty());
   }
+ /***
+ *This test assure deck has cards added and is not empty anymore.
+ */
   @Test
   public void testNotEmptyDeck(){
     Player player = new Player("Marc");
