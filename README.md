@@ -43,7 +43,7 @@ Marc Aoun:
 - Responsible for coding the whole structure of the game
 
 Iman Elabd:
-- Reponsible for unit testing
+- Reponsible for all unit testing
 
 Naima Mamun:
 - Reponsible for creating all UML diagrams
