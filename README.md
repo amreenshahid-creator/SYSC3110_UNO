@@ -12,6 +12,8 @@ Features Implemented:
 - Special action card functionality (Reverse, Skip, Wild, Wild Draw Two)
 - Current game state display
 - Scoring system, and winner declaration
+We have also tested the following the functionalities in each Class to ensure they are working correctly. A detailed description of what the tests will actually test are written as javadoc comemnts in the test files.
+
 
 Planned Future Enhancements and Milestone Tasks:
 
