@@ -60,7 +60,7 @@ public class GameFlowTest{
   public void testNewRoundDealsCards() throws Exception{
     player1.getPersonalDeck().clear();
     player2.getPersonalDeck().clear();
-    game.newRound()
+    game.newRound();
     int expected = 7;
     assertEquals(expected, player1.getPersonalDeck().size());
     assertEquals(expected, player2.getPersonalDeck().size());
